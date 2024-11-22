@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module xmlns="http://www.mountandblade2.com/schemas/module">
+  <Name>Lords of Rune</Name>
+  <Id>LordsOfRune</Id>
+  <Version>1.0.0</Version>
+  <GameVersion>1.0.0</GameVersion>
+  <Author>Jcrib</Author>
+  <Description>A new culture and kingdom called Mistaria.</Description>
+  
+  <SubModule>
+    <Name>Lords of Rune</Name>
+    <Id>LordsOfRune</Id>
+    <ModuleFolder>Modules/LordsOfRune</ModuleFolder>
+    <DLLFileName>LordsOfRune.dll</DLLFileName>
+    <IsPreliminary>false</IsPreliminary>
+    <SubModules />
+  </SubModule>
+</Module>

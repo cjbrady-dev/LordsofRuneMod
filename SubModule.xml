@@ -1,0 +1,30 @@
+<Module>
+    <Name value="Lords of Rune"/>
+    <Id value="LordsOfRune"/>
+    <Version value="v1.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+        <DependedModule Id="Native"/>
+        <DependedModule Id="SandBoxCore"/>
+        <DependedModule Id="Sandbox"/>
+        <DependedModule Id="CustomBattle"/>
+        <DependedModule Id="StoryMode" />
+    </DependedModules>
+    <SubModules>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="SPclans" path="ModuleData/spclans.xml"/>
+        </XmlNode>  
+        <XmlNode>
+            <XmlName id="SPkingdoms" path="ModuleData/spkingdoms.xml"/>
+        </XmlNode> 
+        <XmlNode>
+            <XmlName id="SPCultures" path="ModuleData/spcultures.xml"/>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="NPCCharacters" path="ModuleData/spccharacters.xml"/>
+        </XmlNode>
+    </Xmls>
+</Module>
